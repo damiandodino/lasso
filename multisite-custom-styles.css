@@ -1,0 +1,37 @@
+/* This file is used on all Lasso's Individual Properties Sites. 
+ If there's any changes to any section there's no need to open every single site and edit because we have this "Master CSS" file*/
+
+ .caroussel-wrapper {
+    overflow: hidden;
+}
+
+.caroussel-wrapper, .caroussel-wrapper .elementor-widget-image-carousel,
+.caroussel-wrapper img.swiper-slide-image {
+   max-height: 41rem;
+}
+
+.caroussel-wrapper img.swiper-slide-image {
+    object-fit: cover;
+    object-position: center;
+}
+
+.caroussel-wrapper .swiper-pagination-bullet {
+    border: 3px solid white;
+}
+
+.caroussel-wrapper .elementor-element .swiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 3.312rem;
+}
+
+.caroussel-wrapper .elementor-swiper-button {
+    background-color: white;
+    padding: 0.875rem;
+}
+
+.caroussel-wrapper .elementor-swiper-button-prev {
+    left: 4rem;
+}
+
+.caroussel-wrapper .elementor-swiper-button-next {
+    right: 4rem;
+}
